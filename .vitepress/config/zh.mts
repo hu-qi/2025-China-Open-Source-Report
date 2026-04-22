@@ -20,6 +20,7 @@ export const zh = defineConfig({
           { text: '数据篇', link: '/data' },
           { text: '商业化篇', link: '/commercialization' },
           { text: '开源人工智能篇', link: '/ossAI' },
+          { text: 'Web3.0 篇', link: '/web3' },
           { text: '开源大事记', link: '/open-source-milestones' },
         ]
       }
