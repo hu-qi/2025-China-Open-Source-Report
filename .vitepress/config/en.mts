@@ -20,6 +20,7 @@ export const en = defineConfig({
           { text: 'OSS Data Analytics', link: '/en/data' },
           { text: 'OSS Commercialization', link: '/en/commercialization' },
           { text: 'OSS AI', link: '/en/ossAI' },
+          { text: 'OpenSource Embodied Intelligence', link: '/en/embodied-intelligence' },
           { text: 'OSS Chronicle', link: '/en/open-source-milestones' },
         ]
       }

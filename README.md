@@ -23,6 +23,7 @@
   - [数据篇](./data.md)
   - [商业化篇](./commercialization.md)
   - [开源人工智能篇](./ossAI.md)
+  - [开源具身智能篇](./embodied-intelligence.md)
   - [Web3.0 篇](./web3.md)
   - [开源大事记](./open-source-milestones.md)
 
