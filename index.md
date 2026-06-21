@@ -192,6 +192,11 @@ const aiMembers = [
     avatar: withBase('/image/home/avatar/夏小雅.jpg'),
     name: '夏小雅',
   },
+  {
+    avatar: withBase('/image/home/avatar/tedwang.jpg'),
+    name: 'Ted Wang',
+    title: '基础建设部分',
+  },
 ];
 
 // 开源具身智能篇
