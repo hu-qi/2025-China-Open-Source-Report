@@ -61,108 +61,29 @@ const forewordMembers = [
 // 问卷篇
 const questionnaireDesignMembers = [
   {
-    avatar: withBase('/image/home/avatar/赵思嘉.jpg'),
-    name: '赵思嘉',
+    avatar: withBase('/image/home/avatar/谢思怡.jpg'),
+    name: '谢思怡',
   },
 ];
 
-
 // 数据篇
 const dataPieceMembers = [
+ 
   {
-    avatar: withBase('/image/home/avatar/方蕴仪.png'),
-    name: '方蕴仪',
-    title: "宏观洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/游明东.jpg'),
-    name: '游明东',
-    title: "宏观洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/赵思嘉.jpg'),
-    name: '赵思嘉',
-    title: "宏观洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/黄帆.png'),
-    name: '黄帆',
-    title: "OpenRank 排行榜",
-  },
-  {
-    avatar: withBase('/image/home/avatar/赵生宇.jpg'),
-    name: '赵生宇',
-    title: "OpenRank 排行榜",
+    avatar: withBase('/image/home/avatar/韩凡宇.jpg'),
+    name: '韩凡宇',
   },
   {
     avatar: withBase('/image/home/avatar/彭佳恒.jpg'),
     name: '彭佳恒',
-    title: "企业洞察",
   },
   {
-    avatar: withBase('/image/home/avatar/夏倍蓓.png'),
-    name: '夏倍蓓',
-    title: "企业洞察",
+    avatar: withBase('/image/home/avatar/张震.jpg'),
+    name: '张震',
   },
   {
-    avatar: withBase('/image/home/avatar/夏小雅.jpg'),
-    name: '夏小雅',
-    title: "基金会洞察",
-  },
-   {
-    avatar: withBase('/image/home/avatar/王婕.jpg'),
-    name: '王婕',
-    title: "基金会洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/韩凡宇.jpg'),
-    name: '韩凡宇',
-    title: "技术领域洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/娄泽华.jpg'),
-    name: '娄泽华',
-    title: "技术领域洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/王衍童.jpg'),
-    name: '王衍童',
-    title: "技术领域洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/李鸿斌.jpg'),
-    name: '李鸿斌',
-    title: "开源项目洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/史雪涛.jpg'),
-    name: '史雪涛',
-    title: "开源项目洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/毕枫林.jpg'),
-    name: '毕枫林',
-    title: "开发者洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/黄温瑞.jpg'),
-    name: '黄温瑞',
-    title: "开发者洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/谢思怡.jpg'),
-    name: '谢思怡',
-    title: "商业开源洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/朱志炜.jpg'),
-    name: '朱志炜',
-    title: "商业开源洞察",
-  },
-  {
-    avatar: withBase('/image/home/avatar/何德鑫.jpg'),
-    name: '何德鑫',
-    title: "高校开源洞察"
+    avatar: withBase('/image/home/avatar/潘飞扬.jpg'),
+    name: '潘飞扬',
   },
 ]
 
@@ -290,8 +211,6 @@ const infrastructureMembers = [
 // ]
 
 </script>
-
-
 
 <VPTeamPage>
   <VPTeamPageTitle>
@@ -423,7 +342,6 @@ const infrastructureMembers = [
     <img src="/image/home/openbuild-logo.svg" alt="OpenBuild"/>
   </span>
 </div>
-
 
 <VPTeamPageTitle>
   <template #title>合作媒体</template>
