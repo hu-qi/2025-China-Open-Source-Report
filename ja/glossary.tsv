@@ -1,0 +1,49 @@
+zh	en	ja	note	status
+开源	open source	オープンソース		confirmed
+开源社	Kaiyuanshe	開源社		confirmed
+中国开源年度报告	China Open Source Annual Report	中国オープンソース年度報告		confirmed
+具身智能	embodied intelligence	エンボディドAI	Chapter title should use エンボディドAI編 in Japanese	confirmed
+商业化	commercialization	商業化		confirmed
+大事记	milestones	主な出来事		confirmed
+开源 AI	open source AI	オープンソースAI	AI is kept as AI in Japanese technical prose.	Confirmed
+开源社区	open source community	オープンソースコミュニティ		Confirmed
+开源生态	open source ecosystem	オープンソースエコシステム		Confirmed
+开源协作	open source collaboration	オープンソースコラボレーション		Confirmed
+中国开源力量	China open source power	中国オープンソースの力	May also be rendered as 中国のオープンソース力 depending on sentence flow.	needs-review
+智能体	agent	エージェント	Used for AI agents in the preface.	Confirmed
+数据篇	data section	データ編	Chapter title.	Confirmed
+问卷篇	questionnaire section	アンケート編	Chapter title.	Confirmed
+卷首语	preface	巻頭言	Chapter title.	Confirmed
+开源人工智能篇	open source AI section	オープンソースAI編	Chapter title.	Confirmed
+开源具身智能篇	open source embodied intelligence section	オープンソースエンボディドAI編	Chapter title follows the confirmed 具身智能 glossary entry.	Confirmed
+开源大事记	open source milestones	オープンソースの主な出来事	Chapter title.	Confirmed
+数字主权	digital sovereignty	デジタル主権		Confirmed
+模型平权	model democratization	モデルの平等化	Used for access to advanced model capabilities becoming more equal.	Confirmed
+开源软件安全	open source software security	オープンソースソフトウェアセキュリティ	Chapter title.	Confirmed
+开源商业	open source business	オープンソースビジネス	Chapter title.	Confirmed
+开源许可	open source licensing	オープンソースライセンス		Confirmed
+合规治理	compliance governance	コンプライアンスガバナンス		Confirmed
+开源教育	open source education	オープンソース教育	Chapter title.	Confirmed
+开源政策	open source policy	オープンソース政策	Chapter title.	Confirmed
+开源外交	open source diplomacy	オープンソース外交	Chapter title.	Confirmed
+供应链安全	supply chain security	サプライチェーンセキュリティ		Confirmed
+数字公共基础设施	digital public infrastructure	デジタル公共インフラ	Abbreviated as DPI in the source.	Confirmed
+开源鸿蒙	OpenHarmony	OpenHarmony	Keep official project name.	confirmed
+开源欧拉	openEuler	openEuler	Keep official project name.	confirmed
+开源中国	OSCHINA	OSCHINA	Organization/platform name; keep Chinese name for now.	Confirmed
+开放原子开源基金会	OpenAtom Foundation	OpenAtom Foundation	Foundation name; keep Chinese name until official Japanese usage is confirmed.	Confirmed
+新质生产力	new quality productive forces	新質生産力	Explain briefly as growth driven by innovation and advanced technology when first used.	Confirmed
+国资委	State-owned Assets Supervision and Administration Commission	国有資産監督管理委員会	Chinese government body supervising state-owned enterprises; add role explanation when useful.	Confirmed
+国家发改委	National Development and Reform Commission	国家発展改革委員会	Chinese macroeconomic planning agency; common Japanese rendering.	Confirmed
+工信部	Ministry of Industry and Information Technology	工業情報化部	Chinese ministry; often abbreviated MIIT in English contexts.	Confirmed
+十五五	15th Five-Year Plan	十五五計画	China's 15th Five-Year Plan; explain as 第15次五カ年計画 when useful.	Confirmed
+专利开源	patent open source	特許を一定条件で開放する取り組み	Do not treat as the same as source-code open source.	Confirmed
+人工智能安全治理框架	AI safety governance framework	人工知能安全ガバナンスフレームワーク	Use Japanese title with Chinese official title in parentheses when useful.	Confirmed
+国际协作	international collaboration	国際協働	Use 国際的な協力 when it reads more naturally.	Confirmed
+技术主权	technology sovereignty	技術主権	Explain neutrally as the ability to choose and operate important technologies without excessive external dependence.	Confirmed
+公共产品	public goods	公共財	Use 公共的な技術基盤 when the context is technical infrastructure.	Confirmed
+规则制定权	rule-making power	ルール形成への関与	Avoid literal 国際発言権 or overly slogan-like phrasing.	Confirmed
+全球治理	global governance	グローバルガバナンス	Clarify the concrete context, such as standards, AI governance, or public infrastructure, when abstract.	Confirmed
+全球南方	Global South	グローバルサウス	Explain briefly as emerging and developing countries mainly in Asia, Africa, and Latin America when useful.	Confirmed
+智能鸿沟	intelligence divide	スマート・ディバイド	Explain as a gap in access to or use of AI and intelligent technologies.	Confirmed
+中央网信办	Cyberspace Administration policy office	中央サイバー空間事務室	Chinese internet policy authority; add role explanation when useful.	Confirmed
