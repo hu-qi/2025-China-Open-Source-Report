@@ -452,14 +452,23 @@ const infrastructureMembers = [
 </VPTeamPageTitle>
 
 <div class="partner-logo-grid">
-  <img class="partner-logo" src="/image/home/KaiYuanShe-logo.png" alt="KAIYUANSHE"/>
-  <img class="partner-logo" src="/image/home/x_lab2017_logo.jpg" alt="X-lab Open Laboratory"/>
-  <img class="partner-logo" src="/image/home/logo-dark-FIT2CLOUD.svg" alt="FIT2CLOUD"/>
-  <img class="partner-logo" src="/image/home/KWDB.png" alt="KWDB"/>
-  <img class="partner-logo" src="/image/home/logo_gitee_light.png" alt="Gitee"/>
-  <span class="partner-logo partner-logo-switch" aria-label="OpenBuild">
-    <img class="openbuild-logo-lightmode" src="/image/home/openbuild-logo.svg" alt="OpenBuild"/>
-    <img class="openbuild-logo-darkmode" src="/image/home/openbuild-logo-light.svg" alt="OpenBuild"/>
+  <span class="partner-logo-card partner-logo-card-square">
+    <img src="/image/home/KaiYuanShe-logo.png" alt="KAIYUANSHE"/>
+  </span>
+  <span class="partner-logo-card partner-logo-card-square">
+    <img src="/image/home/x_lab2017_logo.jpg" alt="X-lab Open Laboratory"/>
+  </span>
+  <span class="partner-logo-card partner-logo-card-wide">
+    <img src="/image/home/logo-dark-FIT2CLOUD.svg" alt="FIT2CLOUD"/>
+  </span>
+  <span class="partner-logo-card partner-logo-card-wide">
+    <img src="/image/home/KWDB.png" alt="KWDB"/>
+  </span>
+  <span class="partner-logo-card partner-logo-card-wide">
+    <img src="/image/home/logo_gitee_light.png" alt="Gitee"/>
+  </span>
+  <span class="partner-logo-card partner-logo-card-wide">
+    <img src="/image/home/openbuild-logo.svg" alt="OpenBuild"/>
   </span>
 </div>
 
@@ -467,55 +476,94 @@ const infrastructureMembers = [
   <template #title>Media Partners</template>
 </VPTeamPageTitle>
 
-<div :style="{display: 'flex', width: '100%',center}">
-  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/csdn_logo.jpg"/>
-  <img :style="{display: 'flex', width: '50%', objectFit: 'contain'}" src="/image/home/sf_logo.png"/>
+<div class="partner-logo-grid partner-media-grid">
+  <span class="partner-logo-card partner-logo-card-media">
+    <img src="/image/home/csdn_logo.jpg" alt="CSDN"/>
+  </span>
+  <span class="partner-logo-card partner-logo-card-media">
+    <img src="/image/home/sf_logo.png" alt="SegmentFault"/>
+  </span>
 </div>
 
 <style>
 .partner-logo-grid {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  gap: 28px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr));
+  gap: 20px;
+  width: min(1040px, 100%);
+  margin: 0 auto 32px;
+  padding: 0 24px;
 }
 
-.partner-logo {
+.partner-logo-card {
   display: flex;
-  width: 26%;
-  max-height: 170px;
-  object-fit: contain;
-}
-
-.partner-logo-switch {
   align-items: center;
   justify-content: center;
+  min-height: 112px;
+  padding: 18px 24px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
 }
 
-.partner-logo-switch img {
+.partner-logo-card img {
   display: block;
-  width: 100%;
-  max-height: 90px;
+  width: auto;
+  max-width: 190px;
+  max-height: 60px;
   object-fit: contain;
 }
 
-.openbuild-logo-darkmode {
-  display: none !important;
+.partner-logo-card-square img {
+  max-width: 76px;
+  max-height: 76px;
 }
 
-.dark .openbuild-logo-lightmode {
-  display: none !important;
+.partner-logo-card-wide img {
+  max-width: 210px;
+  max-height: 54px;
 }
 
-.dark .openbuild-logo-darkmode {
-  display: block !important;
+.partner-media-grid {
+  grid-template-columns: repeat(2, minmax(220px, 320px));
+  justify-content: center;
+  width: min(720px, 100%);
+}
+
+.partner-logo-card-media {
+  min-height: 96px;
+}
+
+.partner-logo-card-media img {
+  width: 230px;
+  height: 64px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.dark .partner-logo-card {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: rgba(255, 255, 255, 0.16);
 }
 
 @media (max-width: 768px) {
-  .partner-logo {
-    width: 42%;
+  .partner-logo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    padding: 0 16px;
+  }
+
+  .partner-logo-card {
+    min-height: 96px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .partner-logo-grid,
+  .partner-media-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>
