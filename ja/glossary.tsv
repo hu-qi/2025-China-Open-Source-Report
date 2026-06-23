@@ -9,7 +9,7 @@ zh	en	ja	note	status
 开源社区	open source community	オープンソースコミュニティ		Confirmed
 开源生态	open source ecosystem	オープンソースエコシステム		Confirmed
 开源协作	open source collaboration	オープンソースコラボレーション		Confirmed
-中国开源力量	China open source power	中国オープンソースの力	May also be rendered as 中国のオープンソース力 depending on sentence flow.	needs-review
+中国开源力量	China open source power	中国オープンソースの力	May also be rendered as 中国のオープンソース力 depending on sentence flow.	Confirmed
 智能体	agent	エージェント	Used for AI agents in the preface.	Confirmed
 数据篇	data section	データ編	Chapter title.	Confirmed
 问卷篇	questionnaire section	アンケート編	Chapter title.	Confirmed
@@ -47,3 +47,63 @@ zh	en	ja	note	status
 全球南方	Global South	グローバルサウス	Explain briefly as emerging and developing countries mainly in Asia, Africa, and Latin America when useful.	Confirmed
 智能鸿沟	intelligence divide	スマート・ディバイド	Explain as a gap in access to or use of AI and intelligent technologies.	Confirmed
 中央网信办	Cyberspace Administration policy office	中央サイバー空間事務室	Chinese internet policy authority; add role explanation when useful.	Confirmed
+AI 原生	AI native	AIネイティブ	Use for technologies, products, or architectures designed around AI from the outset.	needs-review
+云原生	cloud native	クラウドネイティブ		needs-review
+OSPO	Open Source Program Office	OSPO	Explain on first appearance as the organization or function responsible for open source strategy, compliance, and community participation inside a company.	Confirmed
+OSDGs	Open Source Development Goals	OSDGs	Explain as an evaluation framework for open source value including environment, society, and governance.	Confirmed
+OpenRank	OpenRank	OpenRank	Metric for evaluating contributor/project influence from collaboration relationships, not only raw activity counts.	Confirmed
+生态引力	ecosystem gravity	エコシステムを引きつける力	Avoid literal 生態引力; explain as the ability of a project to attract global developers and organizations.	Confirmed
+Gitee	Gitee	Gitee	Chinese code hosting platform associated with OSCHINA.	Confirmed
+AtomGit	AtomGit	AtomGit	Chinese code hosting platform; keep official name.	Confirmed
+GitCode	GitCode	GitCode	Chinese code hosting platform; keep official name.	Confirmed
+基金会托管	foundation hosting	財団によるホスティング	Use for neutral foundation stewardship/hosting of open source projects.	Confirmed
+出海	overseas expansion	海外展開	Use natural Japanese; avoid literal going to sea.	Confirmed
+模型即服务	Model as a Service	Model as a Service（MaaS）	Explain on first appearance as using models as a service.	Confirmed
+RAG	Retrieval-Augmented Generation	RAG	Explain on first appearance as retrieval-augmented generation that incorporates external data into AI responses.	Confirmed
+魔搭社区	ModelScope	ModelScope	Chinese AI model community/platform; Chinese name may be added in parentheses on first appearance.	Confirmed
+模型卡	model card	モデルカード	Explain as documentation describing model usage, performance, limitations, and licensing.	Confirmed
+推理端点	inference endpoint	推論エンドポイント		Confirmed
+模型网关	model gateway	モデルゲートウェイ		Confirmed
+Open Core	Open Core	Open Core	Business model with an open source core and proprietary/paid extensions.	Confirmed
+昇腾	Ascend	Ascend	Huawei AI processor/ecosystem; Chinese name 昇騰 may be added when useful.	Confirmed
+自主可控	self-controlled / autonomous and controllable	自律的に管理できる技術基盤	Avoid slogan-like literal translation; explain according to context.	Confirmed
+基石化	foundationalization	基盤化	Avoid literal 基石化; use for infrastructure projects becoming trusted industry foundations.	Confirmed
+场景定义	scenario definition	ユースケース定義	Use in commercialization context where projects define concrete business/use scenarios.	Confirmed
+Model Context Protocol	Model Context Protocol	Model Context Protocol	Keep official protocol name; MCP abbreviation may be used after first appearance.	Confirmed
+RLHF	Reinforcement Learning from Human Feedback	RLHF	Explain when needed as reinforcement learning from human feedback.	Confirmed
+財団ガバナンス	foundation governance	財団ガバナンス	Neutral foundation governance over trademarks, releases, roadmaps, security response, contribution rules, and shared decision-making.	Confirmed
+商用ディストリビューション	commercial distribution	商用ディストリビューション	Use for vendor-provided enterprise/industry distributions built around an open source base.	Confirmed
+互換性認証	compatibility certification	互換性認証	Use for certification that hardware/software/applications work with an open source platform.	Confirmed
+技術的自立性を高める基盤	foundation for technological autonomy	技術的自立性を高める基盤	Use as natural Japanese for 自主可控-like business/policy contexts when appropriate.	Confirmed
+GPUStack	GPUStack	GPUStack	GPU cluster/resource management and LLM inference infrastructure project.	Confirmed
+KTransformers	KTransformers	KTransformers	Efficient LLM inference/fine-tuning framework using CPU/GPU resources.	Confirmed
+KWDB	KWDB	KWDB	AIoT-oriented distributed multi-model database.	Confirmed
+Mooncake	Mooncake	Mooncake	LLM serving infrastructure associated with Kimi.	Confirmed
+spring-ai-alibaba	spring-ai-alibaba	spring-ai-alibaba	Java/Spring framework integrating Spring AI with Alibaba AI services and agent/workflow capabilities.	Confirmed
+verl	verl	verl	Large-model reinforcement learning library from ByteDance Seed.	Confirmed
+Utility model	Utility model	Utility モデル	Commercial model selling measurable AI utility such as throughput, latency, availability, and SLA.	Confirmed
+Platform model	Platform model	Platform モデル	Commercial model selling production platform capabilities for AI/cloud-native workloads.	Confirmed
+Compliance model	Compliance model	Compliance モデル	Commercial model selling compliance and trust capabilities around AI/open source usage.	Confirmed
+Compliance-as-a-Service	Compliance-as-a-Service	Compliance-as-a-Service（CaaS）	Service model that embeds compliance requirements such as GDPR, SBOM, AI risk classification, vulnerability response, and data localization.	Confirmed
+SLA	Service Level Agreement	SLA	Service quality agreement; explain as サービス品質保証 when useful.	Confirmed
+TCO	Total Cost of Ownership	TCO	Total cost of ownership; explain as 総保有コスト when useful.	Confirmed
+SBOM	Software Bill of Materials	SBOM	Software bill of materials; explain when needed as software component inventory.	Confirmed
+OpenSSF Criticality Score	OpenSSF Criticality Score	OpenSSF Criticality Score	Metric for assessing criticality of open source projects.	Confirmed
+exit	exit	exit	Use for startup exits such as M&A or IPO; explain when needed.	Confirmed
+AIoT	AIoT	AIoT	AI plus IoT; explain when needed for industry/edge-device contexts.	Confirmed
+FINOS	Fintech Open Source Foundation	FINOS	Linux Foundation organization for open source collaboration in financial services.	Confirmed
+Open Source Promotion Plan	Open Source Promotion Plan	Open Source Promotion Plan（OSPP、開源之夏）	Chinese student open source participation program; explain as maintainer/developer pipeline when useful.	Confirmed
+スマートグリッド	smart grid	スマートグリッド	Use for energy-sector digital grid use cases.	Confirmed
+プライベートフォーク	private fork	プライベートフォーク	Private downstream fork maintained internally by an organization.	Confirmed
+メンテナー層	maintainer pipeline	メンテナー層	Use for the pipeline/group of current and future maintainers supporting long-term project sustainability.	Confirmed
+vibe coding	vibe coding	vibe coding	AI-assisted development style where agents handle much of dependency choice, code generation, and composition; explain on first appearance.	Confirmed
+公地悲剧	tragedy of the commons	コモンズの悲劇	Explain as shared resources being degraded by overuse when users do not bear maintenance/governance responsibility.	Confirmed
+resource quota	resource quota	リソースクォータ	Use for limits on compute/API/infrastructure usage.	Confirmed
+デューデリジェンス	due diligence	デューデリジェンス	Use for capital/investment review of companies, projects, or community metrics.	Confirmed
+Developer Relations	Developer Relations	Developer Relations	Function for developer outreach, community engagement, and feedback loops.	Confirmed
+市場投入までの時間	time to market	市場投入までの時間	Use for reducing time from development to product release/market launch.	Confirmed
+モデルリポジトリ	model repository	モデルリポジトリ	Repository/platform space for publishing, reusing, fine-tuning, downloading, and documenting AI models.	Confirmed
+Utility 型	utility-oriented model	Utility 型	Use for business models selling stable, measurable, accessible AI utility/services.	Confirmed
+アップストリーム・モーメント	upstream moment	アップストリーム・モーメント	Use for moments when license/governance changes push users toward neutral upstream/foundation projects.	Confirmed
+ベンダーロックイン	vendor lock-in	ベンダーロックイン		Confirmed
+制度面での安心感	institutional assurance	制度面での安心感	Use for trust created by stable licenses, transparent governance, and neutral stewardship.	Confirmed

@@ -143,3 +143,11 @@ Examples:
 - Preserve meaning and factual claims.
 - Add glossary entries with `status=needs-review` when important recurring terms are missing.
 - After editing, show `git diff --stat`, summarize changes, list glossary changes, list remaining Simplified Chinese strings, and do not commit automatically unless asked.
+
+## Commercialization chapter rules
+
+- In `ja/commercialization.md`, use Japanese report-style chapter headings such as `## 第一章｜...`, `## 第二章｜...`, and `## 第三章｜...`; do not use Chinese-style headings such as `## 一、...`. The introduction may remain `## はじめに`.
+- For Chinese companies, projects, services, and ecosystems that are not widely known in Japan, add a concise parenthetical explanation on first appearance. Keep it short: explain the relevance, not the full company profile.
+- In commercialization contexts, explain `財団ガバナンス` concretely as neutral foundation governance over trademarks, releases, roadmaps, security response, contribution rules, and decision-making among participating companies and communities, rather than single-company control.
+- Prefer natural commercialization terms such as `事業化`, `商用導入`, `収益化`, `商用ディストリビューション`, `長期サポート`, `互換性認証`, `ハードウェア対応`, `技術的自立性を高める基盤`, `業界別の利用シーン`, `エコシステム`, and `サプライチェーン`.
+- Avoid literal Chinese-style expressions such as `価値実現`, `商業化実装`, `閉ループ`, `賦能`, `生態`, `落地`, `深水域`, `高地`, `ハードウェア適配`, and `業界別シーン`.
